@@ -12,7 +12,7 @@ import modal
 MODEL_DIR = "/models"
 MODEL_PATH = f"{MODEL_DIR}/nemotron-nano-4b.gguf"
 
-app = modal.App("health-tracker")
+app = modal.App("track-my-health")
 
 image = (
     modal.Image.debian_slim()

@@ -130,9 +130,9 @@ def generate_monthly(month_str):
 with gr.Blocks(
     theme=gr.themes.Base(),
     css=open("static/style.css", encoding="utf-8").read(),
-    title="HealthLog",
+    title="TrackMyHealth",
 ) as demo:
-    gr.Markdown("# 🩺 HealthLog")
+    gr.Markdown("# 🩺 TrackMyHealth")
     gr.Markdown("Your private daily health journal.")
 
     with gr.Tab("Today"):
